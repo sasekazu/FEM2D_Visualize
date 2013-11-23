@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>2D FEM</title>
+        <link rel="stylesheet" type="text/css" href="fem.css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script type="text/javascript" src="numeric-1.2.6.min.js"></script>
+        <script type="text/javascript" src="fem.js"></script>
+        <script type="text/javascript" src="animate.js"></script>
+    </head>
+
+    <body>
+    	<div>
+    	<canvas height="500" width="500" id="model_viewer">
+        </canvas></div>
+        <div>
+        <form>
+    	<input id="conCheckBox" type="checkbox">最大主応力のコンター図<br>
+        <input id="tensCheckBox" checked="checked" type="checkbox">応力テンソル場<br>
+        <input id="tensLCheckBox" type="checkbox">応力テンソル場（固定長ベクトル）<br>
+        </form>
+        </div>
+    
+
+</body></html>
